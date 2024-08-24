@@ -1,0 +1,31 @@
+.container {
+    background-color:#f9f9f9;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user {
+    min-width: 60px;
+    width: 60px;
+    padding: 5px;
+}
+
+.userImage {
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.text {
+    margin: auto;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

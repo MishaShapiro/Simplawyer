@@ -1,0 +1,44 @@
+.container {
+    height: 114px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imageWrapper {
+    width: 114px;
+}
+
+.logo {
+    object-fit: cover;
+    width: 100%;
+}
+
+.buttonWrapper {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    color: #157efb;
+    background: none;
+    border: 0px;
+    transition: 0.2s ease-in-out;
+}
+
+.button:hover {
+    cursor: pointer;
+    color: #1da6e5;
+    transition: 0.2s ease-in-out;
+}
+
+.infoWrapper {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    color: #606060;
+}

@@ -1,0 +1,77 @@
+.container {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text {
+    color: #acacac;
+}
+
+.commentWrapper {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    padding: 10px;
+    background-color:#f9f9f9;
+    width: 100%;
+    height: fit-content;
+}
+
+.textarea {
+    padding: 8px 15px 25px;
+    width: 100%;
+    font-size: 15px;
+    border: 1px solid #acacac;
+    border-radius: 4px;
+    height: 190px;
+    appearance: none;
+    resize: none;
+    outline: none;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+.sendButton {
+    background: none;
+    color: #157efb;
+    border: 0px;
+    margin-right: 5px;
+}
+
+.sendButton:hover {
+    cursor: pointer;
+}
+
+.deleteButton {
+    background: none;
+    color: #acacac;
+    border: 0px;
+}
+
+.deleteButton:hover {
+    cursor: pointer;
+}
+
+.user {
+    min-width: 60px;
+    width: 60px;
+    padding: 5px;
+}
+
+.userImage {
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+
+}
+
+.allComments {
+    width: 100%;
+}
